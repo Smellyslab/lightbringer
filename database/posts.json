@@ -1,37 +1,3 @@
 {
-    "somemd5hash": {
-        "textencoded": "somebase64encodedtexthere",
-        "timestamp": "sometimestamp",
-        "creator": "somecreatornamehere(optional)"
-    },
-    "5fe41034109e0526aad672a4ffe43f29": {
-        "postdata64": "YWJjZGVm",
-        "timestamp": "1648588674.5702443",
-        "post_creator": "A Lightbringer.",
-        "post_randomizer_bytes": "3a083bb0701f7d751d3ff99f921a6a1a0e09b7dd56f8774043495f1528c6231d31f464bfdd9bc79d9849571efe4507903624"
-    },
-    "2cc8000a3d63717928afa9f962701943": {
-        "postdata64": "aA==",
-        "timestamp": "1648589163.1591117",
-        "post_creator": "A Lightbringer.",
-        "post_randomizer_bytes": "f9bad103db0111d70b1e7b332f17bc0981052711991c9f62a9f39bca715f76674bdd3cc1eb5a664f66ccc2c3a8685f26d4a8"
-    },
-    "d481e020b28a4b427221c3755f0a8acc": {
-        "postdata64": "YWJjZGVmDQo=",
-        "timestamp": "2022-03-29 22:59:01.197697",
-        "post_creator": "A Lightbringer.",
-        "post_randomizer_bytes": "b28bbf2831f035c90005ff4b61e773470cd55ae05093e6e02b929cd057c39db5f01c80bea894d92a75f0c701fb5202d39293"
-    },
-    "d90dcd6df56fffa72b8e821ddc062db2": {
-        "postdata64": "YWJjZGVmDQoNCg0KDQoNCmFzZGFzZGFzZA==",
-        "timestamp": "2022-03-29 23:02:30.184214",
-        "post_creator": "A Lightbringer.",
-        "post_randomizer_bytes": "126f9f2a57837657f73d93341d3a8249c85308e58b5979df52e708ce82e7d954746ceb828bf503a2e0911db918715a20c8bb"
-    },
-    "a7b880283c829e51781850d6d17dce44": {
-        "postdata64": "I2luY2x1ZGUgPENrSHR0cC5oPg0KI2luY2x1ZGUgPENrSHR0cFJlc3BvbnNlLmg+DQoNCnZvaWQgQ2hpbGthdFNhbXBsZSh2b2lkKQ0KICAgIHsNCiAgICAvLyBUaGlzIHJlcXVpcmVzIHRoZSBDaGlsa2F0IEFQSSB0byBoYXZlIGJlZW4gcHJldmlvdXNseSB1bmxvY2tlZC4NCiAgICAvLyBTZWUgR2xvYmFsIFVubG9jayBTYW1wbGUgZm9yIHNhbXBsZSBjb2RlDQoNCiAgICBDa0h0dHAgaHR0cDsNCg0KICAgIC8vIEFkZCBhIGZldyBjdXN0b20gaGVhZGVycy4NCiAgICBodHRwLlNldFJlcXVlc3RIZWFkZXIoIkNsaWVudC1JRCIsIm15X2NsaWVudF9pZCIpOw0KICAgIGh0dHAuU2V0UmVxdWVzdEhlYWRlcigiQ2xpZW50LVRva2VuIiwibXlfY2xpZW50X3Rva2VuIik7DQoNCiAgICBodHRwLnB1dF9BY2NlcHQoImFwcGxpY2F0aW9uL2pzb24iKTsNCg0KICAgIGNvbnN0IGNoYXIgKnVybCA9ICJodHRwczovL2FwaS5maXNjYWxsb2cuZXUvc2lnbi92MSI7DQogICAgY29uc3QgY2hhciAqanNvblJlcXVlc3RCb2R5ID0gInsgLi4uLiB9IjsNCiAgICBDa0h0dHBSZXNwb25zZSAqcmVzcCA9IGh0dHAuUG9zdEpzb24yKHVybCwiYXBwbGljYXRpb24vanNvbiIsanNvblJlcXVlc3RCb2R5KTsNCiAgICBpZiAoaHR0cC5nZXRfTGFzdE1ldGhvZFN1Y2Nlc3MoKSA9PSBmYWxzZSkgew0KICAgICAgICBzdGQ6OmNvdXQgPDwgaHR0cC5sYXN0RXJyb3JUZXh0KCkgPDwgIlxyXG4iOw0KICAgICAgICByZXR1cm47DQogICAgfQ0KDQogICAgc3RkOjpjb3V0IDw8ICJSZXNwb25zZSBzdGF0dXMgY29kZSA9ICIgPDwgcmVzcC0+Z2V0X1N0YXR1c0NvZGUoKSA8PCAiXHJcbiI7DQogICAgY29uc3QgY2hhciAqanNvblJlc3BvbnNlU3RyID0gcmVzcC0+Ym9keVN0cigpOw0KDQogICAgc3RkOjpjb3V0IDw8IGpzb25SZXNwb25zZVN0ciA8PCAiXHJcbiI7DQoNCiAgICBkZWxldGUgcmVzcDsNCiAgICB9",
-        "timestamp": "2022-03-29 23:06:21.363049",
-        "post_creator": "A Lightbringer.",
-        "post_randomizer_bytes": "a245fb5939261f6e0a7bdd87345aa65844f1c8098a9b0ac90b2eb4d9e9ecaff86cf39b66ec5047f1a93cb4b67ff060e458d1"
-    }
+    
 }
