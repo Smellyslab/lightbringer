@@ -17,5 +17,10 @@ def about_page():
 @app.route('/purpose', methods=['GET'])
 def purpose_page():
     return render_template('purpose.html')
-    
+
+@app.route('/faq', methods=['GET'])
+def faq_page():
+    return render_template('faq.html')
+        
+
 app.run(host='0.0.0.0', port=8080, debug=True)
