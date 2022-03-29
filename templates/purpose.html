@@ -1,12 +1,14 @@
 <!DOCTYPE html>
- <html>
-     <head>
-         <title>Lightbringers | Home</title>
-        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/idnex_style.css') }}">
+<html>
+    <head>
+        <title>Lightbringers | Purpose</title>
         <style>
+            
+            body {
+                background-color: black;
+            }
             .mainbody {
                 color: red;
-                background-color: black;
                 font-size: 10px;
                 font-family: 'Courier New', Courier, monospace;
                 text-align: center;
@@ -40,17 +42,23 @@
             }
         </style>
     </head>
-    
-    <div class="topnav">
-        <a class="active" href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/purpose">Purpose</a>
-      </div>
-     <body style="background-color: black;">
-        <div class="mainbody">
+    <body>
+        <div class="topnav">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a class="active" href="/purpose">Purpose</a>
+          </div>
+        <div class="mainbody" id="about">
             <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB3hYN_SMEV6duqoWQ-VnBMozEsXqLvE5xxWgzjAFUuw2lKp9vQvhOOQdgrYnf0bz_jI0:https://images-na.ssl-images-amazon.com/images/I/51bSYNFHRpL.jpg&usqp=CAU"></p>
-            <p1>"Cognitio libertas hominum"</p1>
-            
+            <p1>Why Do The Lightbringers Exist?</p>
+            <br>
+            <p2>The Lightbringers exist because we belive that knowledge should not be limited by governmental and societal beliefs and norms.</p2>
+            <br>
+            <p3>We belive that people should be able to know anything they want no matter its legality or societal status.</p3>
+            <br>
+            <p4>Shed light upon the unknown.</p4>
+            <br>
+            <p5>Be a Lightbringer.</p5>
         </div>
-     </body>
- </html>
+    </body>
+</html>

@@ -1,12 +1,14 @@
 <!DOCTYPE html>
- <html>
-     <head>
-         <title>Lightbringers | Home</title>
-        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/idnex_style.css') }}">
+<html>
+    <head>
+        <title>Lightbringers | About</title>
         <style>
+            
+            body {
+                background-color: black;
+            }
             .mainbody {
                 color: red;
-                background-color: black;
                 font-size: 10px;
                 font-family: 'Courier New', Courier, monospace;
                 text-align: center;
@@ -40,17 +42,30 @@
             }
         </style>
     </head>
-    
-    <div class="topnav">
-        <a class="active" href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/purpose">Purpose</a>
-      </div>
-     <body style="background-color: black;">
-        <div class="mainbody">
+    <body>
+        <div class="topnav">
+            <a href="/">Home</a>
+            <a class="active" href="/about">About</a>
+            <a href="/purpose">Purpose</a>
+          </div>
+        <div class="mainbody" id="about">
             <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB3hYN_SMEV6duqoWQ-VnBMozEsXqLvE5xxWgzjAFUuw2lKp9vQvhOOQdgrYnf0bz_jI0:https://images-na.ssl-images-amazon.com/images/I/51bSYNFHRpL.jpg&usqp=CAU"></p>
-            <p1>"Cognitio libertas hominum"</p1>
-            
+            <p>We belive in freedome of knowledge for all.</p>
+            <br>
+            <p1>Anything Anyone should want to know should be free to be known.</p1>
+            <br>
+            <p2>We should not allow the government to limit our knowledge of anything, regardless of what it might be.</p2>
+            <br>
+            <p3>Shed light upon the unknown.</p3>
+            <br>
+            <p4>Be a lightbringer.</p4>
         </div>
-     </body>
- </html>
+        <div id="anarch" class="mainbody">
+            <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-3_n6-TaXT5GEjfwTAI-JtHOzhz2TgdbK3iZLUlq_kVndM6fSNWvcj_riq_3iVppSQOw:https://www.crwflags.com/fotw/images/q/qt-a_bra.gif&usqp=CAU"></p>
+            <br>
+            <p1>What Are We?</p1>
+            <br>
+            <p2>The Lightbringers are a Luciferian Anti-Society E-Group based around anti-corruption and freedom of knowledge.</p2>
+        </div>
+    </body>
+</html>
