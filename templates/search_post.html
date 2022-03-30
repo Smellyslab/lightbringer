@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Lightbringers | Create A New Post</title>
+        <title>Lightbringers | Search For A Post</title>
         <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous" />
         <link rel="icon" href="https://art.kunstmatrix.com/de/system/files/styles/full/private/art/22403/andysbaphometredlarge.jpg?itok=cp4AR7ie" type="image/x-icon">
         <style>
@@ -74,20 +74,19 @@
             <a href="/">Home</a>
             <a href="/about">About</a>
             <a href="/purpose">Purpose</a>
-            <a class="active" href="/newpost">Create A Post</a>
-            <a href="/post/search">Search For A Post</a>
+            <a href="/newpost">Create A Post</a>
+            <a class="active" href="/post/search">Search For A Post</a>
         </div>
         {% block content %}
-        <form class="mainform" action="#" method="post">
-            <br>
-            <label for="postdata" style="font-family: 'Courier New', Courier, monospace;">Text To Put in Post</label>
-            <br>
-            <br>
-            <p1><textarea class= "maintextarea" placeholder="Enter your text..." type="text" name="postdata" value="" rows="10" cols="100"></textarea></p1>
+        <form class="mainform" method="POST" action="#">
+            <label for="postdata" style="font-family: 'Courier New', Courier, monospace;">Post ID (MD5)</label>
             <br>
             <br>
-            <input class="button_go pure-button" type="submit" value="post"/>
+            <input type="text" class="maintextarea" name="postid"/>
+            <br>
+            <br>
+            <input class="button_go pure-button" type="submit" value="search"/>
         </form>
-        {% endblock %} 
+        {% endblock %}
     </body>
 </html>

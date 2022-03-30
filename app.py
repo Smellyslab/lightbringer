@@ -66,4 +66,10 @@ def post_by_id(postid):
     post_text = base64.b64decode(post_data["postdata64"].encode())
     return render_template('postbyid.html', post_data=post_data, text=str(post_text.decode()), post_id=postid)
 
-app.run(host='0.0.0.0', port=8080, debug=True)
+@app.route('/post/search', methods=['GET', 'POST'])
+def post_search():
+    if request.method == "POST":
+        postid = request.form.get("postid")
+        return redirect(f'/post/{postid}')
+    else:
+        return render_template('search_post.html')
